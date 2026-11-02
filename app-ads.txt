@@ -1,3 +1,1 @@
-# AdMob > Uygulamalar > app-ads.txt bolumunde verilen satiri asagiya yapistirin ve bu yorum satirlarini silin.
-# Ornek bicim (pub-XXXXXXXXXXXXXXXX yerine kendi yayinci kimliginiz):
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+google.com, pub-7575869355206343, DIRECT, f08c47fec0942fa0
