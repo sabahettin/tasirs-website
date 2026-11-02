@@ -1,22 +1,75 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tasir - Mobile apps</title>
-<meta name="description" content="Simple, fast, offline-friendly mobile apps by Sabahettin Tasir.">
-<link rel="icon" href="./assets/favicon.png">
-<link rel="stylesheet" href="./assets/style.css">
+<title>Tasir | Mobile apps & software</title>
+<meta name="description" content="Simple, fast mobile apps and web software by Sabahettin Tasir.">
+<meta name="theme-color" content="#4f46e5">
+<link rel="icon" href="/assets/favicon.png">
+<link rel="stylesheet" href="/assets/style.css">
+<script src="/assets/site.js"></script>
 </head>
-<body>
-<header><div class="wrap"><a href="./">Tasir</a></div></header>
-<main class="wrap">
-<h1>Simple, fast mobile apps</h1>
-<p class="muted">Small tools that do one thing well. No account needed. / Tek iş yapan, hızlı ve sade mobil uygulamalar. Hesap gerekmez.</p>
-<a class="card" href="zikr/"><img src="zikr/icon.png" alt="Zikr"><span><strong>Zikr: Tasbih &amp; Dhikr Counter</strong><span class="muted">Digital tasbih and dhikr counter / Dijital zikirmatik ve tesbih sayacı</span></span></a>
-<h2>Contact / İletişim</h2>
-<p><a href="mailto:tasir.sabahettin@gmail.com">tasir.sabahettin@gmail.com</a></p>
+<body class="">
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="/"><i></i>Tasir</a>
+  <nav>
+    <a class="nl" href="/#apps"><span class="en">Apps</span><span class="tr">Uygulamalar</span></a>
+    <a class="nl" href="/#about"><span class="en">About</span><span class="tr">Hakkımda</span></a>
+    <a class="nl" href="/#contact"><span class="en">Contact</span><span class="tr">İletişim</span></a>
+    <div class="lang-toggle" role="group" aria-label="Language"><button data-set="en">EN</button><button data-set="tr">TR</button></div>
+  </nav>
+</div></header>
+<main>
+<div class="hero"><div class="wrap">
+  <span class="eyebrow"><span class="en">Software developer</span><span class="tr">Yazılım geliştirici</span></span>
+  <h1><span class="en">I build simple, fast apps <span class="grad">people actually use.</span></span><span class="tr">İnsanların <span class="grad">gerçekten kullandığı</span>, sade ve hızlı uygulamalar geliştiriyorum.</span></h1>
+  <p class="lead"><span class="en">Mobile apps and web software. Small, focused tools that respect your time and your privacy.</span><span class="tr">Mobil uygulamalar ve web yazılımları. Zamanınıza ve gizliliğinize saygı duyan, küçük ve odaklı araçlar.</span></p>
+  <div class="btns">
+    <a class="btn primary" href="#apps"><span class="en">See my apps</span><span class="tr">Uygulamalarım</span></a>
+    <a class="btn" href="mailto:tasir.sabahettin@gmail.com"><span class="en">Get in touch</span><span class="tr">İletişime geç</span></a>
+  </div>
+</div></div>
+
+<section id="apps"><div class="wrap">
+  <div class="sec-head"><h2><span class="en">Apps</span><span class="tr">Uygulamalar</span></h2>
+  <p><span class="en">Available on iOS and Android. New ones on the way.</span><span class="tr">iOS ve Android için. Yenileri yolda.</span></p></div>
+  <div class="grid">
+    <a class="card app-card" href="/zikr/" style="--card-accent:#17896a">
+      <div class="app-top"><img src="/zikr/icon.png" alt="Zikr app icon"><div><strong>Zikr</strong><span>Tasbih &amp; Dhikr Counter</span></div></div>
+      <p class="app-desc"><span class="en">A clean digital tasbih. Tap anywhere to count, set goals, keep your daily streak. Works offline, 10 languages.</span><span class="tr">Sade bir dijital zikirmatik. Her yere dokunarak sayın, hedef belirleyin, günlük serinizi tutun. İnternetsiz çalışır, 10 dil.</span></p>
+      <div class="tags"><span class="tag">iOS</span><span class="tag">Android</span><span class="tag soon"><span class="en">Coming soon</span><span class="tr">Yakında</span></span></div>
+    </a>
+    <div class="card ghost"><strong><span class="en">More apps coming</span><span class="tr">Yeni uygulamalar geliyor</span></strong><span class="en">Small tools, one job done well.</span><span class="tr">Küçük araçlar, tek iş, iyi yapılmış.</span></div>
+  </div>
+</div></section>
+
+<section id="what"><div class="wrap">
+  <div class="sec-head"><h2><span class="en">What I do</span><span class="tr">Neler yapıyorum</span></h2></div>
+  <div class="grid">
+    <div class="card feat"><div class="ic">&#9645;</div><h3><span class="en">Mobile apps</span><span class="tr">Mobil uygulamalar</span></h3><p><span class="en">Cross-platform iOS and Android apps built with Flutter. Offline-first, localized, light on battery.</span><span class="tr">Flutter ile iOS ve Android uygulamaları. İnternetsiz çalışan, çok dilli, pil dostu.</span></p></div>
+    <div class="card feat"><div class="ic">&#9783;</div><h3><span class="en">Web applications</span><span class="tr">Web uygulamaları</span></h3><p><span class="en">Full-stack products with .NET Core and React, from database to interface.</span><span class="tr">.NET Core ve React ile veritabanından arayüze uçtan uca ürünler.</span></p></div>
+    <div class="card feat"><div class="ic">&#9873;</div><h3><span class="en">Done properly</span><span class="tr">Düzgün yapılmış</span></h3><p><span class="en">Privacy-friendly, fast and tested. No accounts or tracking you don't need.</span><span class="tr">Gizlilik dostu, hızlı ve test edilmiş. Gerek olmayan hesap ya da takip yok.</span></p></div>
+  </div>
+</div></section>
+
+<section id="about"><div class="wrap about">
+  <div class="sec-head"><h2><span class="en">About</span><span class="tr">Hakkımda</span></h2></div>
+  <div>
+    <p><span class="en">I'm Sabahettin, a software developer based in Türkiye. I build web software with .NET and React, and publish small, focused mobile apps under the Tasir name.</span><span class="tr">Ben Sabahettin, Türkiye'de yaşayan bir yazılım geliştiriciyim. .NET ve React ile web yazılımları geliştiriyor, Tasir adıyla küçük ve odaklı mobil uygulamalar yayınlıyorum.</span></p>
+    <p><span class="en">Every app here is designed to do one thing well, work without a connection, and ask for as little as possible.</span><span class="tr">Buradaki her uygulama tek işi iyi yapmak, bağlantı olmadan çalışmak ve mümkün olduğunca az şey istemek üzere tasarlandı.</span></p>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap"><div class="card contact">
+  <h2><span class="en">Let's talk</span><span class="tr">Konuşalım</span></h2>
+  <p><span class="en">Questions, feedback or a project in mind? Send an email.</span><span class="tr">Soru, geri bildirim ya da bir proje mi var? E-posta gönderin.</span></p>
+  <a class="btn primary" href="mailto:tasir.sabahettin@gmail.com">tasir.sabahettin@gmail.com</a>
+</div></div></section>
 </main>
-<footer><div class="wrap">&copy; 2026 Sabahettin Tasir &middot; <a href="mailto:tasir.sabahettin@gmail.com">tasir.sabahettin@gmail.com</a></div></footer>
+<footer class="site-footer"><div class="wrap">
+  <span>&copy; 2026 Sabahettin Tasir</span>
+  <span><a href="mailto:tasir.sabahettin@gmail.com">tasir.sabahettin@gmail.com</a></span>
+</div></footer>
 </body>
 </html>
